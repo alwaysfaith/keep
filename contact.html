@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://yexiqingxi.com/contact -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>留言板 | 叶夕青兮</title>
+<link rel="stylesheet" type="text/css" href="static/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="static/css/tooltipster.css">
+<link rel="stylesheet" type="text/css" href="static/css/style.css"  media="screen">
+<link rel="icon" href="static/images/favicon.ico" sizes="32x32" />
+<style>
+.nav-bar {display: none;}
+</style>
+
+</head>
+<body>
+	<div class="nav-bar">
+		<div class="nav-bar-inner">
+			<a href="javascript:;" class="logo">
+				<span>叶夕青兮</span>
+			</a>
+			<button class="toggle-menu" type="button">
+				<i class="fa fa-bars"></i>
+			</button>
+			
+			<nav class="menu-u-container">
+				<ul id="menu-u" class="menu">
+					<li  class="logo-s menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home">
+						<a href="index.html">叶夕青兮</a>
+					</li>
+					<li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+						<a href="javascript:;">
+							<i class="fa fa-th-large"></i>&nbsp;&nbsp;&nbsp;&nbsp;博文分类&nbsp;&nbsp;<i class="fa fa-caret-down"></i>
+						</a>
+						<ul class="sub-menu">
+							<li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+								<a href="theme.html">
+									<i class="fa fa-coffee fa-fw"></i>&nbsp;&nbsp;&nbsp;&nbsp;生活
+								</a>
+							</li>
+							<li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+								<a href="theme.html">
+								 	<i class="fa fa-book fa-fw"></i>&nbsp;&nbsp;&nbsp;&nbsp;小说
+								</a>
+							</li>
+							<li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+								<a href="theme.html">
+									<i class="fa fa-plane fa-fw"></i>&nbsp;&nbsp;&nbsp;&nbsp;旅行
+								</a>
+							</li>
+							<li class="menu-item menu-item-type-post_type menu-item-object-page">
+								<a href="theme.html">
+									<i class="fa fa-folder fa-fw"></i>&nbsp;&nbsp;&nbsp;&nbsp;归档
+								</a>
+							</li>
+						</ul>
+					</li>
+					
+					<li class="menu-item menu-item-type-custom menu-item-object-custom">
+						<a href="detail.html">
+							<i class="fa fa-diamond"></i>&nbsp;&nbsp;作品
+						</a>
+					</li>
+					<li class="menu-item menu-item-type-custom menu-item-object-custom">
+						<a href="album.html">
+							<i class="fa fa-camera"></i>&nbsp;&nbsp;&nbsp;&nbsp;相册
+						</a>
+					</li>
+					<li class="menu-item menu-item-type-post_type menu-item-object-page">
+						<a href="contact.html">
+							<i class="fa fa-comments fa-fw"></i>&nbsp;&nbsp;&nbsp;&nbsp;留言
+						</a>
+					</li>
+				</ul>
+			</nav>
+			
+			<form method="get" id="searchform" action="#">
+				<i class="fa fa-search searchpro"></i>
+				<input class="input-search-index" type="text" name="s" value="" placeholder="Search……" autocomplete="off" />
+			</form>
+			
+			<button class="toggle-search" type="button">
+				<i class="fa fa-search"></i>
+			</button>
+			
+		</div>
+	</div>
+
+	<nav class="site-nav">
+		<div>
+			<ul class="pages">
+				<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home">
+					<a href="404.html">
+						<i class="fa fa-home fa-fw"></i> 首页
+					</a>
+				</li>
+				<li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+					<a href="javascript:;">
+						<i class="fa fa-paw fa-fw"></i> 吐槽
+					</a>
+				</li>
+				<li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+					<a href="javascript:;">
+						<i class="fa fa-coffee fa-fw"></i> 生活
+					</a>
+				</li>
+				<li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+					<a href="javascript:;">
+						<i class="fa fa-plane fa-fw"></i> 旅行
+					</a>
+				</li>
+				<li class="menu-item menu-item-type-taxonomy menu-item-object-category ">
+					<a href="javascript:;">
+						<i class="fa fa-book fa-fw"></i> 小说
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<form method="get" id="searchform" action="#">
+		<input class="input-search" type="text" name="s" value="" placeholder="输入关键字后按回车键搜索……" autocomplete="off">
+	</form>
+
+
+	<header class="site-header" style="height: 30%; position: relative; z-index: 0; background: none;">
+		<div class="site-header-inner" style="animation: bgcolor 5s; -moz-animation: bgcolor 5s; -webkit-animation: bgcolor 5s; -o-animation: bgcolor 5s; background-color: rgba(0, 0, 0, 0.3);">
+			<h1 style="color: #fff;" class="animated fadeInDown">留言板</h1>
+		</div>
+		<!-- /.site-header-inner -->
+	</header>
+	
+	<div class="main">
+		<div class="content-widescreen">
+			<div class="crumbs_patch" style="margin-top: 1.5rem;">
+				<div id="crumbs">
+					<i class="fa fa-home"></i> 
+					<a href="index.html" >首页</a>&gt;
+					<span class="current">留言板</span>
+				</div>
+			</div>
+			
+			<section class="posts">
+				<div class="posts-inner">
+					<article class="post text"></article>
+				</div>
+				<!-- /.posts-inner -->
+			</section>
+			<!-- /.posts -->
+			<div class="post-comment">
+				<!-- You can start editing here. -->
+				<div id="postcomments">
+					<div id="comments">
+						<div id="respond_box">
+							<div id="respond">
+								<div class="cancel-comment-reply">
+									<small>
+										<a rel="nofollow" id="cancel-comment-reply-link" href="#" style="display: none;" >点击这里取消回复。</a>
+									</small>
+								</div>
+								<form action="#" method="post" id="commentform">
+									<div id="comment-author-info">
+										<p>
+											<input type="text" name="author" id="author" class="commenttext" placeholder="Name" value="" size="22" tabindex="1"> 
+											<label for="author">
+												<small><i class="fa fa-user"></i></small>
+											</label>
+										</p>
+										<p>
+											<input type="text" name="email" id="email" class="commenttext" value="" size="22" placeholder="Email" tabindex="2"> 
+											<label for="email">
+												<small><i class="fa fa-envelope"></i></small>
+											</label>
+										</p>
+										<p>
+											<input type="text" name="url" id="url" class="commenttext" value="" size="22" placeholder="http://" tabindex="3">
+											<label for="url">
+												<small><i class="fa fa-globe"></i></small>
+											</label>
+										</p>
+									</div>
+									<div class="clear"></div>
+									
+									<span class="smiles-icons ">
+										<i class="fa fa-smile-o fa-2x"></i>
+									</span>
+									<div class="clear"></div>
+									<div class="smileys">
+										<a href="javascript:grin(&#39;:?:&#39;)" >
+											<img src="static/images/smiley/icon_question.gif" alt="">
+										</a> 
+										<a href="javascript:grin(&#39;:razz:&#39;)" >
+											<img src="static/images/smiley/icon_razz.gif" alt="">
+										</a> 
+										<a href="javascript:grin(&#39;:evil:&#39;)">
+											<img src="static/images/smiley/icon_evil.gif" alt="">
+										</a> 
+										<a href="javascript:grin(&#39;:!:&#39;)">
+											<img src="static/images/smiley/icon_exclaim.gif" alt="">
+										</a> 
+										<a href="javascript:grin(&#39;:smile:&#39;)">
+											<img src="static/images/smiley/icon_smile.gif" alt="">
+										</a> 
+										<a href="javascript:grin(&#39;:oops:&#39;)">
+											<img src="static/images/smiley/icon_redface.gif" alt="">
+										</a> 
+										<a href="javascript:grin(&#39;:grin:&#39;)">
+											<img src="static/images/smiley/icon_biggrin.gif" alt="">
+										</a> 
+										<a href="javascript:grin(&#39;:eek:&#39;)">
+											<img src="static/images/smiley/icon_surprised.gif" alt="">
+										</a> 
+										<a href="javascript:grin(&#39;:shock:&#39;)">
+											<img src="static/images/smiley/icon_eek.gif" alt="">
+										</a> 
+										<a href="javascript:grin(&#39;:???:&#39;)">
+											<img src="static/images/smiley/icon_confused.gif" alt="">
+										</a>
+										<a href="javascript:grin(&#39;:cool:&#39;)">
+											<img src="static/images/smiley/icon_cool.gif" alt="">
+										</a>
+										<a href="javascript:grin(&#39;:lol:&#39;)">
+											<img src="static/images/smiley/icon_lol.gif" alt="">
+										</a> 
+										<a href="javascript:grin(&#39;:twisted:&#39;)">
+											<img src="static/images/smiley/icon_twisted.gif" alt="">
+										</a> 
+										<a href="javascript:grin(&#39;:roll:&#39;)">
+											<img src="static/images/smiley/icon_rolleyes.gif" alt="">
+										</a> 
+										<a href="javascript:grin(&#39;:wink:&#39;)">
+											<img src="static/images/smiley/icon_wink.gif" alt="">
+										</a> 
+										<a href="javascript:grin(&#39;:idea:&#39;)">
+											<img src="static/images/smiley/icon_idea.gif" alt="">
+										</a> 
+										<a href="javascript:grin(&#39;:arrow:&#39;)">
+											<img src="static/images/smiley/icon_arrow.gif" alt="">
+										</a> 
+										<a href="javascript:grin(&#39;:neutral:&#39;)">
+											<img src="static/images/smiley/icon_neutral.gif" alt="">
+										</a>
+										<a href="javascript:grin(&#39;:cry:&#39;)">
+											<img src="static/images/smiley/icon_cry.gif" alt="">
+										</a> 
+										<a href="javascript:grin(&#39;:mrgreen:&#39;)">
+											<img src="static/images/smiley/icon_mrgreen.gif" alt="">
+										</a> 
+										<br>
+									</div>
+									
+									<div>
+										<textarea name="w" id="comment" tabindex="4" cols="50" rows="5"></textarea>
+										
+										<div id="loading" style="display: none;">
+											<i class="fa fa-spinner fa-spin"></i>&nbsp;正在提交中，请稍候...
+										</div>
+										
+										<div id="error" style="display: none;">#</div>
+										<textarea name="comment" cols="100%" rows="4" style="display: none"></textarea>
+									</div>
+									
+									<p>
+										<input type="submit" name="submit" class="submit"  id="submit" tabindex="5" value="发表评论"> 
+										<input type="hidden" name="id" value="9224" id="comment_post_ID">
+									</p>
+								</form>
+								
+								<div class="clear"></div>
+							</div>
+						</div>
+						<h3 id="comments">390 COMMENTS</h3>
+
+							<ol class="comment-list">
+						
+								<li class="comment-body">
+									<div class="comment-main">
+										<div class="comment-author vcard">
+											<img src="static/images/avatar.png" class="avatar" height="50" width="50">
+											<cite class="fn">
+												<a href="#" rel="external nofollow" class="url " target="_blank">
+													静水流深
+												</a>
+											</cite>
+											<span class="datetime">2016-04-05 22:49</span>
+										</div>
+										<p>怪不得你文采这么好，原来是写多了~</p>
+										<div class="comment-reply">
+											<a rel="nofollow" class="comment-reply-link" href="#" aria-label="回复给静水流深">
+												[ 回复 ]
+											</a>
+										</div>
+									</div>
+								</li>
+								
+								<li class="comment-body">
+									<div class="comment-main">
+										<div class="comment-author vcard">
+											<img src="static/images/avatar1.png" class="avatar" height="50" width="50">
+											<cite class="fn">
+												<a href="#" rel="external nofollow" class="url " target="_blank">
+													月光下的过客
+												</a>
+											</cite>
+											<span class="datetime">2016-04-05 21:29</span>
+										</div>
+										<p>曾经也是什么东西都写，现在已经写不出来了，就连大白话都不知道怎么写出来了</p>
+										<div class="comment-reply">
+											<a rel="nofollow" class="comment-reply-link " href="#" aria-label="回复给月光下的过客">
+												[ 回复 ]
+											</a>
+										</div>
+									</div>
+								</li>
+								
+								<li class="comment-body">
+									<div class="comment-main">
+										<div class="comment-author vcard">
+											<img src="static/images/avatar.jpeg" class="avatar" height="50" width="50">
+											<cite class="fn">sky</cite>
+											<span class="datetime">2016-04-05 10:41</span>
+										</div>
+										<p>感同身受</p>
+										<div class="comment-reply">
+											<a rel="nofollow" class="comment-reply-link" href="#" aria-label="回复给sky">
+												[ 回复 ]
+											</a>
+										</div>
+									</div>
+									
+									<ul class="children">
+										<li class="comment-body">
+											<div class="comment-main">
+												<div class="comment-author vcard">
+													<img src="static/images/avatar.png" class="avatar" height="50" width="50">
+													<cite class="fn">
+														<a href="#" rel="external nofollow" class="url" target="_blank">静水流深 </a>
+													</cite>
+													<span class="datetime">2016-04-22 10:55</span>
+												</div>
+												<p>测试一下</p>
+												<div class="comment-reply">
+													<a rel="nofollow" class="comment-reply-link" href="#" aria-label="回复给sky">
+														[ 回复 ]
+													</a>
+												</div>
+											</div>
+										</li>
+									</ul>
+									<!-- .children -->
+								</li>
+							</ol>
+
+						<div class="navigation">
+							<div class="pagination">
+								<a class="prev page-numbers" href="#">&lt;</a>
+								<a class="page-numbers" href="#">1</a>
+								<span class="page-numbers dots">…</span> 
+									<a class="page-numbers" href="#">20</a>
+									<a class="page-numbers" href="#">21</a>
+								<span class="page-numbers current">22</span>
+								<a class="next page-numbers" href="#">&gt;</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<!-- /.posts -->
+
+		</div>
+	</div>
+	
+	<div class="clear"></div>
+	<a href="#" id="top" title="返回顶部" > 
+		<i class="fa fa-chevron-up fa-2x"></i>
+	</a>
+	<footer class="site-footer">
+		<div class="site-info">
+			© 2016-2016 <a href="#" id="copyright" class="">kang</a>
+		</div>
+		<!-- .site-info -->
+	</footer>
+	
+<script type="text/javascript" src="static/js/jquery.min.js"></script>
+<script type="text/javascript" src="static/js/comments-ajax.js"></script>
+<script type="text/javascript" src="static/js/jquery.tooltipster.min.js"></script>
+<script type="text/javascript" src="static/js/common.js"></script>
+<script type="text/javascript" src="static/js/wp-embed.min.js"></script>
+<script type="text/javascript" src="static/js/jquery.backstretch.min.js"></script>
+<script type="text/javascript" src="static/js/common_scroll.js"></script>
+<script>
+    $(".site-header").backstretch([
+      "static/images/contact.jpg"
+      ], {
+        fade: 750,
+        duration: 4000
+    });
+</script>
+
+<script type="text/javascript">
+	/* <![CDATA[ */
+	    function grin(tag) {
+	    	var myField;
+	    	tag = ' ' + tag + ' ';
+	        if (document.getElementById('comment') && document.getElementById('comment').type == 'textarea') {
+	    		myField = document.getElementById('comment');
+	    	} else {
+	    		return false;
+	    	}
+	    	if (document.selection) {
+	    		myField.focus();
+	    		sel = document.selection.createRange();
+	    		sel.text = tag;
+	    		myField.focus();
+	    	}
+	    	else if (myField.selectionStart || myField.selectionStart == '0') {
+	    		var startPos = myField.selectionStart;
+	    		var endPos = myField.selectionEnd;
+	    		var cursorPos = endPos;
+	    		myField.value = myField.value.substring(0, startPos)
+	    					  + tag
+	    					  + myField.value.substring(endPos, myField.value.length);
+	    		cursorPos += tag.length;
+	    		myField.focus();
+	    		myField.selectionStart = cursorPos;
+	    		myField.selectionEnd = cursorPos;
+	    	}
+	    	else {
+	    		myField.value += tag;
+	    		myField.focus();
+	    	}
+	    }
+	/* ]]> */
+	</script>
+
+</body>
+</html>
